@@ -1,0 +1,12 @@
+{
+    "name": "Zoom Extension",
+    "version": "1.0",
+    "description": "Opens the links for the zoom classes automatically.",
+    "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
+    "options_page": "options.html",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+  }
